@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Statistics</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+                <span class="fs-4">Statistics <span class="alert-danger">#report_start# - #report_end#</span></span>
+            </a>
+        </header>
+
+        <main>
+            <div class="row">
+                <h1>Report on your cash flow</h1>
+                <p class="fs-5 col-md-9">The most popular tags in the cash flow: <span class="alert-danger">#top_tags#</span>. The number of transactions recorded <span class="alert-danger">#transaction_count#</span> for the current period. Tags count <span class="alert-danger">#tags_count#</span>.</p><p class="fs-5 col-md-8">Our club has launched a program in Telegram: Accounting. We want to say right away that everything is anonymous. Telegram does not transmit any information about you to us.</p>
+
+                <div class="mb-5">
+                    <a href="https://t.me/HomeBookeepingBot" class="btn btn-primary btn-lg px-4" target="_blank">Open APPS Home Bookeeping</a>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="chart"></div>
+                <ul class="key">
+                    <li>
+                        <strong class="percent red">4%</strong>
+                        <span class="choice">Jump right in, startupfille here I come.</span>
+                    </li>
+                    <li>
+                        <strong class="percent gray">4%</strong>
+                        <span class="choice">Email back to discuss, flattered and positive.</span>
+                    </li>
+                    <li>
+                        <strong class="percent purple">6%</strong>
+                        <span class="choice">Respond and say "Thanks but no thanks."</span>
+                    </li>
+                    <li>
+                        <strong class="percent blue">9%</strong>
+                        <span class="choice">Email back to discuss, all business.</span>
+                    </li>
+                    <li>
+                        <strong class="percent yellow">31%</strong>
+                        <span class="choice">Email back to discuss, but skeptically.</span>
+                    </li>
+                    <li>
+                        <strong class="percent orange">46%</strong>
+                        <span class="choice">Delete the email.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row g-5">
+                <div class="bd-example">
+                    <table class="table table-striped">
+                        <tr class="table-dark">
+                            <th scope="col"><b>#</b></th>
+                            <th scope="col"><b>Tags</b></th>
+                            <th scope="col"><b>Value</b></th>
+                            <th scope="col"><b>Date Records</b></th>
+                        </tr>
+                        #table_reports#
+                    </table>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2>What's available now</h2>
+                    <p class="fs-5">Accounting is relevant if, in addition to non-cash payments, you have a cash expense, or you count the joint budget on different cards by all family members, or you count the income/expense of a group of people for business, or you just need to calculate the income of accounting for something. It is free and convenient that you do not need to install another application. Only telegrams.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Guides</h2>
+                    <ol class="icon-list fs-5">
+                        <li>@HomeBookeepingBot (https://t.me/HomeBookeepingBot) link to the program.</li>
+                        <li>The infrastructure is ready. At the end of the month there will be a report.</li>
+                        <li>You need to send 9139.34 Lidl (to the budget as an expense). You can open a number without a category.</li>
+                        <li>+200,000 salary goes to the budget as a plus.</li>
+                        <li>Number space everything else is a category.</li>
+                        <li>If you write -200 and send it, it will search for the nearest number in this month equal to 200 and remove it from the balance. Suddenly they made a mistake.</li>
+                        <li>Request the current balance.</li>
+                    </ol>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="pt-5 my-5 text-muted border-top">
+            Created by the ABSPublisher team &middot; &copy; #current_year#
+        </footer>
+    </div>
+
+</body>
+</html>

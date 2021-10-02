@@ -5,10 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ChromeHtmlToPdf" Version="2.5.9" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.3.8" />
+    <PackageReference Include="ChromeHtmlToPdf" Version="2.5.11" />
+    <PackageReference Include="CsvHelper" Version="27.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="sautinsoft.document" Version="5.3.6.22" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AbsLibrary\AbsLibraryCore\AbsLibraryCore.csproj" />
   </ItemGroup>
 
 </Project>
