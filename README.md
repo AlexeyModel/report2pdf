@@ -8,7 +8,6 @@ Folder report2pdf/Report2Pdf/resource/ contains files needed working.
 
 - Mall_Customers.csv - info csv file.
 - output.json - info example body in post method.
-- index.html - source generation Report pdf.
 - index.light.html - source generation Report pdf.
 - style.css - source generation Report pdf.
 
