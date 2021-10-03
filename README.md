@@ -14,7 +14,8 @@ style.css - source generation Report pdf.
 
 # Installing on Linux or macOS
 
-Installing .NET
+<h3>Installing .NET</h3>
+
 See this url about how to install .NET on Linux
 
 https://docs.microsoft.com/en-us/dotnet/core/install/linux
@@ -23,7 +24,8 @@ And this url about how to install .NET on macOS
 
 https://docs.microsoft.com/en-us/dotnet/core/install/macos
 
-Installing Chrome
+<h3>Installing Chrome</h3>
+
 See this url about how to install Chrome on Linux
 
 https://support.google.com/chrome/a/answer/9025903?hl=en
