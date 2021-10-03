@@ -34,7 +34,7 @@ And this url about how to install Chrome on macOS
 
 https://support.google.com/chrome/a/answer/7550274?hl=en
 
-# Example installing on Linux Ubuntu
+# Example installing Chrome on Linux Ubuntu
 
 1. wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 
