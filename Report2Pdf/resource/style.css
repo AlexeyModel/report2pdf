@@ -7,50 +7,7 @@
   float: left;
   padding-right: 20px;
 }
-.key {
-  width: 50%;
-  float: right;
-  list-style: none;
-  display: table;
-  border-collapse: separate;
-}
-.key > li {
-  display: table-row;
-}
-.key > li > * {
-  display: table-cell;
-  border-bottom: 12px solid #fff;
-}
-.percent {
-  color: #fff;
-  padding: 10px 2px;
-  text-shadow: 0 0 1px #000;
-  text-align: center;
-}
-.choice {
-  padding-left: 10px;
-}
-.red {
-  background: #f15854;
-}
-.gray {
-  background: #4d4d4d;
-}
-.blue {
-  background: #5da5da;
-}
-.yellow {
-  background: #decf3f;
-}
-.purple {
-  background: #b276b2;
-}
-.orange {
-  background: #faa43a;
-}
-* {
-  box-sizing: border-box;
-}
+
 body {
   padding: 20px;
   font-family: sans-serif;
