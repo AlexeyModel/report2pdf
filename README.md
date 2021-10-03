@@ -33,3 +33,17 @@ https://support.google.com/chrome/a/answer/9025903?hl=en
 And this url about how to install Chrome on macOS
 
 https://support.google.com/chrome/a/answer/7550274?hl=en
+
+# Example installing on Linux Ubuntu
+
+1. wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
+2. sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+
+3. sudo apt-get update
+
+4. sudo apt-get install google-chrome-stable
+
+5. google-chrome --version
+
+6. google-chrome --no-sandbox --user-data-dir
