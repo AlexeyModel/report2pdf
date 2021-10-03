@@ -1,4 +1,4 @@
-# API: Creating report format .pdf.
+# API: Creating report format .pdf
 
 Testing: csv reading, creating PDF file, generation report file HTML
 
