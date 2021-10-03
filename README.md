@@ -1,5 +1,4 @@
-# report2pdf
-API: Creating report format .pdf.
+# API: Creating report format .pdf.
 
 Testing: csv reading, creating PDF file, generation report file HTML
 
@@ -12,3 +11,23 @@ output.json - info example body in post method.
 index.html - source generation Report pdf.
 index.light.html - source generation Report pdf.
 style.css - source generation Report pdf.
+
+# Installing on Linux or macOS
+
+Installing .NET
+See this url about how to install .NET on Linux
+
+https://docs.microsoft.com/en-us/dotnet/core/install/linux
+
+And this url about how to install .NET on macOS
+
+https://docs.microsoft.com/en-us/dotnet/core/install/macos
+
+Installing Chrome
+See this url about how to install Chrome on Linux
+
+https://support.google.com/chrome/a/answer/9025903?hl=en
+
+And this url about how to install Chrome on macOS
+
+https://support.google.com/chrome/a/answer/7550274?hl=en
